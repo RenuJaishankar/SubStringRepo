@@ -4,7 +4,7 @@ package Lesson;
 
 public class SubstringExample {
     public static void main(String[] args){
-        // This program is an example of how substring works.
+        // This program is an example of how substring() method works.
         String str="www.amazon.com";
         System.out.println("First 4 characters in the string: "+str.substring(0,4));
         System.out.println("Last 4 characters in the string: "+str.substring(str.length()-4));
